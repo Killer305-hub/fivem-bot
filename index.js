@@ -66,4 +66,4 @@ client.once('ready', () => {
     setInterval(checkServer, 10000);
 });
 
-client.login(TOKEN);
+client.login(TOKEN).catch(console.error);
